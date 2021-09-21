@@ -1,0 +1,33 @@
+body{
+    background-color: #79b4b7;
+}
+
+h1{
+    background-color: #F8F0DF;
+}
+
+h3{
+    background-color: #fefbf3;
+}
+
+p{
+    background-color: #F8F0DF;
+}
+
+.float-container{
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child{
+    width: 50%;
+    float: left;
+    border: 2px solid red;
+}
+
+.float-child2{
+    width: 50%;
+    height: 100%;
+    float: right;
+    border: 2px solid red;
+}
