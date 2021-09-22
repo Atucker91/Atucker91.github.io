@@ -4,7 +4,7 @@ html{
 
 body{
     background-color: #D79771;
-    height: 100%;
+    height: auto;
 }
 
 table, th, td{
@@ -15,45 +15,84 @@ table, th, td{
 }
 
 .float-container{
-    border: 3px solid #753422;
-    padding: 20px;
-    height: 100%;
+    border: 30px solid #753422;
+    
+    height: auto;
 }
 
 .float-child{
-    /* width: 48%; */
-    height: 100%;
+    height: auto;
     border: 1px solid red;
-    margin-left: 10px;
+    
     
 }
 
 .float-child2{
-    width: 48%;
-    height: 30%;
+    width: 30%;
+    height: auto;
     float: right;
     border: 1px solid red;
     background-color: #FFEBC9;
+    border:10px solid #753422;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
-.float-child3{
+.header{
     float: none;
     border: 1px solid red;
     background-color: #B05B3B;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.nav-bar{
+    float: none;
+    border: 1px solid red;
+    background-color: #B05B3B;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.nav-bar li{
+    display: inline;
+}
+
+.nav-bar ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    background-color: #FFEBC9;
+    padding-right: 10px;
+    padding-left: 10px;
+
 }
 
 .pic{
-    width: 48%;
-    height: 100%;
-    float: left;
+    width: auto;
+    height: auto;
+    float: right;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
     
 }
 
 .name{
-    width: 48%;
-    height: 100%;
-    float: right;
-    margin-right: 10px;
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 5px;
+    /* border: 1px solid red; */
     
 }
 
@@ -62,4 +101,5 @@ table, th, td{
     text-align: center; 
     border: 1px solid red;
     background-color: #B05B3B;
+    margin-top: 15px;
 }
