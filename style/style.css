@@ -1,5 +1,10 @@
+html{
+    height: 100%;
+}
+
 body{
     background-color: #79b4b7;
+    height: 100%;
 }
 
 h1{
@@ -17,17 +22,26 @@ p{
 .float-container{
     border: 3px solid #fff;
     padding: 20px;
+    height: 100%;
 }
 
 .float-child{
-    width: 50%;
+    width: 48%;
+    height: 100%;
     float: left;
-    border: 2px solid red;
+    
 }
 
 .float-child2{
-    width: 50%;
+    width: 48%;
     height: 100%;
     float: right;
-    border: 2px solid red;
+    
+}
+
+.pic{
+    width: 48%;
+    height: 100%;
+    float: left;
+    
 }
