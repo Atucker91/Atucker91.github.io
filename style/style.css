@@ -7,13 +7,6 @@ body{
     height: auto;
 }
 
-table, th, td{
-    margin-left: auto;
-    margin-right: auto;
-    /* text-align: center; */
-    border: 1px solid #753422;
-}
-
 .float-container{
     border: 30px solid #753422;
     
@@ -22,7 +15,7 @@ table, th, td{
 
 .float-child{
     height: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     
     
 }
@@ -31,7 +24,7 @@ table, th, td{
     width: 30%;
     height: auto;
     float: right;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #FFEBC9;
     border:10px solid #753422;
     margin-right: 10px;
@@ -40,7 +33,7 @@ table, th, td{
 
 .header{
     float: none;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #B05B3B;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -51,7 +44,7 @@ table, th, td{
 
 .nav-bar{
     float: none;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #B05B3B;
     padding-bottom: 15px;
     padding-top: 15px;
@@ -68,11 +61,18 @@ table, th, td{
     font-weight: bold;
     text-decoration: none;
     color: black;
-    border: 1px solid black;
+    border: 5px solid #753422;
     background-color: #FFEBC9;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+}
 
+.nav-bar ul li a:hover{
+    background-color: #D79771;
+    color: black;
 }
 
 .pic{
@@ -96,10 +96,42 @@ table, th, td{
     
 }
 
+.project-table{
+    /* border: 1px solid red; */
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.project-table table, th, td{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 5px solid #753422;
+    background-color: #FFEBC9;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.project-table table, th, td a{
+    text-decoration: none;
+    color: black;
+}
+
+.tech-info{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tech-info p{
+    font-size: larger;
+    line-height: 120%;
+}
+
 .contact-info
 {
     text-align: center; 
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #B05B3B;
     margin-top: 15px;
 }
